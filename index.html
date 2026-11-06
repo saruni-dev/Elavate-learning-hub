@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elevate Learning Hub</title>
+
+    <style>
+        /* GENERAL STYLING */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f1f4f1;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: darkgreen;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            color: rgb(2, 2, 160);
+            font-size: 26px;
+            padding: 10px;
+        }
+
+        p {
+            color: #444444;
+            font-size: 18px;
+            margin: 15px;
+        }
+
+        /* HEADER */
+
+        header {
+            background-color: darkgreen;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        header p {
+            color: white;
+        }
+
+        /* NAVIGATION BAR */
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            background-color: #174d32;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* SERVICES */
+
+        .services {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            border: 2px solid lightblue;
+            border-radius: 12px;
+        }
+
+        /* SUBJECTS */
+
+        .subjects {
+            background-color: white;
+            border: 2px solid darkgreen;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px;
+        }
+
+        /* CARDS */
+
+        .container {
+            display: flex;
+            background-color: lightblue;
+            justify-content: center;
+            align-items: center;
+            min-height: 260px;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border: 2px solid lightblue;
+            border-radius: 12px;
+            width: 250px;
+            height: 220px;
+            text-align: center;
+        }
+@media(max-width:600px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .card {
+        width: 90%;
+    }
+
+}
+
+nav{
+    gap: 15px;
+    padding: 12px;
+}
+nav a{
+    font-size: 14px;
+}
+    </style>
+</head>
+
+<body>
+
+ <!-- HEADER -->
+
+    <header id="home">
+        <h1>Elevate Learning Hub</h1>
+        <p>Personalised learning. Brighter futures.</p>
+    </header>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>   
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- INTRODUCTION -->
+
+    <h2>What We Offer</h2>
+
+    <p>
+        Have a child who needs additional learning support?
+        We provide personalised educational experiences
+        to help every learner reach their potential.
+    </p>
+
+    <hr>
+
+    <!-- SERVICES -->
+
+    <div id="services">
+
+        <h2>Our Services</h2>
+
+        <ul>
+            <li>Individualised learning support</li>
+            <li>Literacy and Numeracy</li>
+            <li>Small group programmes</li>
+            <li>Parent support</li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- SUBJECTS -->
+
+    <div class="subjects">
+
+        <h2>Our Subjects</h2>
+
+        <ul>
+            <li>English and Literacy</li>
+            <li>Mathematics and Numeracy</li>
+            <li>Science and Environmental Studies</li>
+            <li>Digital Literacy</li>
+            <li>Creative Arts</li>
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- OUR MISSION -->
+
+    <div id="about">
+        <h2>Our Mission</h2>
+
+        <p>
+            To provide personalised educational support
+            to children who experience learning difficulties
+            and need additional assistance to reach their potential.
+        </p>
+    </div>
+
+    <hr>
+
+    <!-- PROGRAMME CARDS -->
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Individual Learning</h2>
+            <p>Personalised support for every learner.</p>
+        </div>
+
+        <div class="card">
+            <h2>Literacy and Numeracy</h2>
+            <p>Building strong reading, writing and maths skills.</p>
+        </div>
+
+        <div class="card">
+            <h2>Small Group Programmes</h2>
+            <p>Learning and growing together.</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+
+        <p>Get in touch with Elevate Learning Hub:</p>
+
+        <a href="mailto:instasaruni@gmail.com">
+            Email Us
+        </a>
+    </div>
+
+</body>
+</html>
